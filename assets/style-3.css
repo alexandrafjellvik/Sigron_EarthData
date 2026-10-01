@@ -1,0 +1,28 @@
+.not-found[data-astro-cid-ibpinaeu] {
+  min-height: 65vh;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.eyebrow[data-astro-cid-ibpinaeu] {
+  margin-bottom: 25px;
+}
+
+h1[data-astro-cid-ibpinaeu] {
+  font-size: clamp(44px, 7vw, 90px);
+  max-width: 900px;
+}
+
+.not-found[data-astro-cid-ibpinaeu] > p[data-astro-cid-ibpinaeu]:not(.eyebrow) {
+  margin: 25px 0 30px;
+  color: var(--muted);
+  font-size: 15px;
+}
+
+@media (width <= 600px) {
+  .not-found[data-astro-cid-ibpinaeu] {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}
+

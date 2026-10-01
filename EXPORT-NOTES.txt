@@ -1,0 +1,5 @@
+Sigrøn static GitHub Pages package.
+
+Norgesdomene hosting/form dependencies have been removed.
+The contact form now opens a pre-filled email to alexandra@sigrøn.no.
+All site images, styles and scripts required for the design are included locally.
