@@ -877,3 +877,40 @@ button[data-astro-cid-7aropxhg]:disabled {
   text-decoration: underline;
   text-underline-offset: 2px;
 }
+
+
+/* About Sigrøn — bilingual introduction */
+.about-sigron[data-astro-cid-7aropxhg] {
+  display: grid;
+  grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr);
+  gap: clamp(30px, 6vw, 110px);
+  padding-top: 96px;
+  padding-bottom: 108px;
+  border-top: 1px solid rgb(255 255 255 / 18%);
+}
+.about-sigron-heading[data-astro-cid-7aropxhg] h2[data-astro-cid-7aropxhg] {
+  max-width: 560px;
+  font-size: clamp(32px, 4vw, 57px);
+  line-height: 1.15;
+  letter-spacing: -.035em;
+}
+.about-sigron-body[data-astro-cid-7aropxhg] p[data-astro-cid-7aropxhg] {
+  max-width: 660px;
+  margin: 0 0 19px;
+  line-height: 1.85;
+  font-size: 15px;
+}
+.about-sigron-link[data-astro-cid-7aropxhg] {
+  display: inline-block;
+  margin-top: 13px;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+@media (max-width: 760px) {
+  .about-sigron[data-astro-cid-7aropxhg] {
+    grid-template-columns: 1fr;
+    padding-top: 65px;
+    padding-bottom: 70px;
+    gap: 24px;
+  }
+}
