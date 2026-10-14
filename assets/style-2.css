@@ -800,3 +800,54 @@ button[data-astro-cid-7aropxhg]:disabled {
   }
 }
 
+
+
+/* Project 03 — upcoming multispectral drone analysis */
+.project-drone[data-astro-cid-7aropxhg] {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+  column-gap: 40px;
+  align-items: start;
+}
+.project-drone[data-astro-cid-7aropxhg] .project-image[data-astro-cid-7aropxhg] {
+  grid-row: 1 / 4;
+  aspect-ratio: 1.9;
+}
+.project-image-drone[data-astro-cid-7aropxhg] {
+  background: #193c34;
+}
+.drone-art[data-astro-cid-7aropxhg] {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  background: repeating-linear-gradient(155deg, #193c34 0 15px, #234b3e 15px 29px, #38624a 29px 49px, #b7a35f 49px 56px, #58794b 56px 81px, #27493d 81px 97px);
+}
+.drone-art[data-astro-cid-7aropxhg]::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(110deg, rgb(10 33 27 / 30%), transparent 80%);
+}
+.drone-art-label[data-astro-cid-7aropxhg] {
+  position: absolute;
+  bottom: 18px;
+  left: 22px;
+  z-index: 1;
+  font: 500 12px var(--mono);
+  letter-spacing: .16em;
+  color: #faf5db;
+}
+.drone-art-band[data-astro-cid-7aropxhg] { display: none; }
+.project-drone[data-astro-cid-7aropxhg] .project-meta[data-astro-cid-7aropxhg] { margin-top: 3px; }
+@media (width <= 760px) {
+  .project-drone[data-astro-cid-7aropxhg] {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .project-drone[data-astro-cid-7aropxhg] .project-image[data-astro-cid-7aropxhg] {
+    grid-row: auto;
+    aspect-ratio: 1.55;
+  }
+  .project-drone[data-astro-cid-7aropxhg] .project-meta[data-astro-cid-7aropxhg] { margin-top: 15px; }
+}
