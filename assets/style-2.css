@@ -851,3 +851,29 @@ button[data-astro-cid-7aropxhg]:disabled {
   }
   .project-drone[data-astro-cid-7aropxhg] .project-meta[data-astro-cid-7aropxhg] { margin-top: 15px; }
 }
+
+
+/* Caption and credit for externally sourced reference NDVI imagery */
+.project-image-drone[data-astro-cid-7aropxhg] img[data-astro-cid-7aropxhg] {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.drone-credit[data-astro-cid-7aropxhg] {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  padding: 16px 18px 12px;
+  font: 10px var(--mono);
+  color: #fff;
+  background: linear-gradient(transparent, rgb(6 24 21 / 92%));
+  line-height: 1.6;
+}
+.drone-credit[data-astro-cid-7aropxhg] a[data-astro-cid-7aropxhg] {
+  color: #fff;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
