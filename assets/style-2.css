@@ -914,3 +914,20 @@ button[data-astro-cid-7aropxhg]:disabled {
     gap: 24px;
   }
 }
+
+
+/* About Sigrøn portrait, revealed after photo upload */
+.about-sigron[data-astro-cid-7aropxhg] { grid-template-columns: minmax(0, .65fr) minmax(0, .8fr) minmax(0, 1.3fr); gap: clamp(22px, 3.5vw, 55px); }
+.about-sigron-photo[data-astro-cid-7aropxhg] { margin: 0; align-self: start; }
+.about-sigron-photo[data-astro-cid-7aropxhg] img[data-astro-cid-7aropxhg] { display: block; width: 100%; height: auto; aspect-ratio: 4/5; object-fit: cover; object-position: 44% 30%; }
+.about-sigron-link[data-astro-cid-7aropxhg] { margin-top: 12px; margin-right: 10px; }
+.about-link-divider[data-astro-cid-7aropxhg] { margin-right: 10px; }
+@media (max-width: 900px) {
+  .about-sigron[data-astro-cid-7aropxhg] { grid-template-columns: minmax(0, .7fr) minmax(0, 1.3fr); }
+  .about-sigron-heading[data-astro-cid-7aropxhg] { grid-column: 1 / -1; }
+}
+@media (max-width: 760px) {
+  .about-sigron[data-astro-cid-7aropxhg] { grid-template-columns: 1fr; }
+  .about-sigron-heading[data-astro-cid-7aropxhg] { grid-column: auto; }
+  .about-sigron-photo[data-astro-cid-7aropxhg] { max-width: 340px; }
+}
